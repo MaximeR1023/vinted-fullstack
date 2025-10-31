@@ -8,12 +8,6 @@ const Offer = require("../models/Offer");
 const User = require("../models/User");
 const fileUpload = require("express-fileupload");
 
-cloudinary.config({
-  cloud_name: "drrd0h5c4",
-  api_key: "982374581531534",
-  api_secret: "CMfkYms7VRIT4avnSyJ8GEO4vhA",
-});
-
 // Publish an offer
 router.post(
   "/offer/publish",
